@@ -14,7 +14,7 @@ void setup() {
 
   //Inicialização das portas
   pinMode(LED_BUILTIN, OUTPUT); //LED da placa
-
+  Serial.println("Init");
 }
 
 //Podemos mexer no main.cpp e trocar esse loop por uma função qualquer com while dentro
